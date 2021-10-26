@@ -1,0 +1,74 @@
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.profile {
+  max-width: 200px;
+  border: 1px gray solid;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 100%;
+  border: 1px black solid;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.tag,
+.location,
+.label {
+  color: gray;
+}
+
+.quantity {
+  font-weight: 700;
+}
+
+.description {
+  text-align: center;
+  border-bottom: 1px gray solid;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats li {
+  margin: 10px;
+  text-align: center;
+}
+
+.label {
+  display: block;
+}
+
+/* Statistic section */
+
+.statistics {
+  text-align: center;
+  max-width: 300px;
+  border: 1px gray solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.stat-list {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.statistics .item {
+  border: 1px gray solid;
+}

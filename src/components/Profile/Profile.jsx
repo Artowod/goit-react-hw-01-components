@@ -1,4 +1,4 @@
-import StatsElement from "./StatsElement/StatsElement";
+import StatsElement from "./ProfileStatsElement/ProfileStatsElement";
 
 const Profile = ({ name, tag, location, avatar, stats }) => (
   <div className="profile">

@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 import styles from "./ProfileStatsElement.module.css";
 
 const StatsElement = ({ label, quantity }) => {
@@ -8,4 +10,10 @@ const StatsElement = ({ label, quantity }) => {
     </li>
   );
 };
+
+StatsElement.propTypes = {
+  label: PropTypes.string.isRequired,
+  quantity: PropTypes.number.isRequired,
+};
+
 export default StatsElement;

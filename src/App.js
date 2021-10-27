@@ -7,13 +7,13 @@ import statisticalData from "./data/statistical-data.json";
 import friendsData from "./data/friends.json";
 import transactions from "./data/transactions.json";
 import "./App.css";
-import "./shared/styles/reset.css";
 
 function App() {
   return (
     <div className="App">
       <Profile name={name} tag={tag} location={location} avatar={avatar} stats={stats} />
       <Statistics title="Upload stats" stats={statisticalData} />
+      <Statistics stats={statisticalData} />
       <FriendList friends={friendsData} />
       <TransactionHistory items={transactions} />
     </div>

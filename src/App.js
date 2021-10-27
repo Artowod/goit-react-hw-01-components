@@ -7,7 +7,6 @@ import statisticalData from "./data/statistical-data.json";
 import friendsData from "./data/friends.json";
 import transactions from "./data/transactions.json";
 import "./App.css";
-import "./shared/styles/reset.css";
 
 function App() {
   return (

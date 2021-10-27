@@ -1,5 +1,5 @@
 import OneTransaction from "./OneTransaction";
-import PropTypes from "prop-types";
+//import PropTypes from "prop-types";
 
 import styles from "./TransactionHistory.module.css";
 
@@ -39,7 +39,7 @@ TransactionHistory.defaultProps = {
   items: [],
 };
 
-TransactionHistory.propTypes = {
+/* TransactionHistory.propTypes = {
   items: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
@@ -48,6 +48,6 @@ TransactionHistory.propTypes = {
       currency: PropTypes.string.isRequired,
     }).isRequired
   ),
-};
+}; */
 
 export default TransactionHistory;

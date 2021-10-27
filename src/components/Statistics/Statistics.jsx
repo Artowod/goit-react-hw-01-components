@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 import styles from "./Statistics.module.css";
 
 const Statistics = ({ title, stats }) => {
-  console.log(title, stats);
   const statisticsElement = stats.map((item) => (
     <StatisticsElement key={item.id} label={item.label} percentage={item.percentage} />
   ));
@@ -30,6 +29,5 @@ Statistics.propTypes = {
     }).isRequired
   ),
 };
-
 
 export default Statistics;

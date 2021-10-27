@@ -1,0 +1,18 @@
+.item {
+  border: 1px gray solid;
+}
+
+.label,
+.percentage {
+  text-align: center;
+  display: block;
+}
+
+.label {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.percentage {
+  font-size: 18px;
+}

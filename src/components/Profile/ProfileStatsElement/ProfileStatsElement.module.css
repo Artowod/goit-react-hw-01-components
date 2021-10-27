@@ -1,0 +1,8 @@
+.label {
+  display: block;
+    color: gray;
+}
+
+.quantity {
+  font-weight: 700;
+}

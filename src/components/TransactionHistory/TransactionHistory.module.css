@@ -1,0 +1,21 @@
+.transactionHistory {
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px lightgrey solid;
+}
+
+.transactionHistory__header {
+  background-color: rgb(101, 154, 204);
+}
+
+.transactionHistory__header > tr {
+  height: 40px;
+  color: white;
+}
+
+.oneTransactionColumn {
+  width: 300px;
+  border: 1px lightgrey solid;
+}

@@ -1,0 +1,15 @@
+.transactionRow {
+  height: 40px;
+  color: grey;
+  text-align: center;
+}
+.transactionRow:nth-child(2n) {
+  background-color: rgb(239, 245, 253);
+}
+.transactionRow > td {
+  border: 1px lightsteelblue solid;
+}
+
+.transactionType:first-letter {
+  text-transform: capitalize;
+}
